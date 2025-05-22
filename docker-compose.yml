@@ -34,7 +34,7 @@ services:
       - waha_sessions:/app/.sessions
       - waha_media:/app/.media
     ports:
-      - "3000:3000"
+      - "3100:3000"
 
   n8n:
     image: n8nio/n8n:latest
